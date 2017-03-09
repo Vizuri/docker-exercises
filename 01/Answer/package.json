@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node .",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "mongodb": "2.2.24",
+    "express": "latest"
+  },
+  "devDependencies": {
+    "newman": "latest"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "",
+  "description": "api"
+}

@@ -1,0 +1,34 @@
+version: '2.1'
+services:
+    db:
+        image: mongo:3
+        container_name: db
+
+    web:
+        depends_on:
+         - db
+        container_name: web
+        image: node:6.9.1
+        ports:
+         - "127.0.0.1:3000:3000"
+        working_dir: /work
+        volumes:
+         - .:/work
+        environment:
+         - MONGO_IP=db
+         - NODE_ENV=${NODE_ENV}
+        command: node /work/server.js
+
+    test:
+        depends_on:
+         - db
+         - web
+        image: node:6.9.1
+        working_dir: /work
+        volumes:
+         - ..:/work
+        environment:
+         - NODE_ENV=${NODE_ENV}
+        command: curl -s http://web:3000
+
+

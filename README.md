@@ -7,8 +7,7 @@ It will be up to you to find and correct the issue(s).
 
 Each exercise should include a description of what it is supposed to do and how to run it which may not be entirely correct or complete but acts a starting point.
 
-The master branch of this repo contains the exercises.
-The fixes branch will contain the corrected/working versions of the exercises.
+The Answer directory in each exercise should contain a working solution to the problem.
 
 Note that there is likely more than one solution to any problem and you may come up with a better "fix" or additional exercises to add.
 If you do, sends us a PR and we will add it.
