@@ -1,5 +1,5 @@
 # Description
-use inspect format to output only a particular field
+Use inspect format to output only a few particular fields in image metadata.
 
 ## Run instructions
 
