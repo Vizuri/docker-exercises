@@ -1,5 +1,5 @@
 # Description
-create a dockerfile to contain an image only these files
+Make a dockerfile to create an image containing only the files in this directory.
 
 ## Run instructions
 
