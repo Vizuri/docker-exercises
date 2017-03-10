@@ -1,6 +1,6 @@
 # Docker Exercises
 This is intended to help learn aspects of Docker by presenting a number of challenges.
-The challenges will address areas such as Docker, docker-compose, neworking, logging, debugging and general approaches to trouble shooting.
+The challenges will address areas such as Docker, docker-compose, networking, logging, debugging and general approaches to trouble shooting.
 
 Each exercise will consist of various files (Docker, source and shell scripts) that may contain one or more problems and a goal on what they should be doing.
 It will be up to you to find and correct the issue(s).
