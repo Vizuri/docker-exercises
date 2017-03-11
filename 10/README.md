@@ -14,6 +14,6 @@ Things to consider:
 
 ## Run instructions
 
-` ecs-cli license`
-` ecs-cli configure --cluster ecs-cli-demo`
+    ecs-cli license
+    ecs-cli configure --cluster ecs-cli-demo
 
