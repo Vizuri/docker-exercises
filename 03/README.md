@@ -1,6 +1,6 @@
 # Description
 
-What happens when you try this and what is wrong with it?
+What happens when you try this and what is wrong with it? Next, how do you fix it?
 
 ## Run instructions
 
