@@ -1,6 +1,8 @@
 # Description
 Use inspect to get metadata for a resource.
 
+Note that you may need to use inspect with a type argument to indicate whether you want a container or image.
+
 ## Run instructions
 
     docker network create testthing
@@ -15,7 +17,10 @@ Now try this
 Did you get the output that your expected?
 Which resource did you get the output for?
 
-How can you get the metadata for exactly what you want?
+Try the following to be more specific and compare the outputs
 
+    docker inspect --type=container testthing
+    docker inspect --type=image testthing
+    docker inspect --type=container testthing
 
 
