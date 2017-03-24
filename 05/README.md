@@ -1,7 +1,7 @@
 # Description
-take a data file make an image containing it, then grep something from that image,
-can you have a data image with nothing to run in it?
-
+What size image does this Dockerfile create?
+What size of archive does it create if you export it to a tarball?
 
 ## Run instructions
+
 
