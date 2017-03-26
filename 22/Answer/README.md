@@ -15,7 +15,7 @@ The sed command looks like this:
 
     docker run -i --rm alpine echo "change this word to" | docker run -i alpine sed -n 's/this/that/p'
 
-Note that if you include a psuedo tty with (-t) in the sed continer you will get this error
+Note that if you include a pseudo tty with (-t) in the sed continer you will get this error
 
     the input device is not a TTY
 
