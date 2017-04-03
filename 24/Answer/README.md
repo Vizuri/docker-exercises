@@ -1,6 +1,9 @@
 # Description
 What is the smallest data only container you can make?
 
+One approach is to have a data only image that starts with the `scratch` base image.
+Since you cannot have an empty image (try it) you have to add something to it.
+That something can be an empty file that you create with `touch data.txt` for example.
 
 ## Run instructions
 
@@ -10,7 +13,7 @@ Note that the Dockerfile is adding an empty file to the image.
     docker build -t data .
 
 Now run it and create a volume.
-Note that we are including a cmd to run but that command does not exist in the image.
+Note that we are including a cmd to run (`nothing`) but that command does not exist in the image.
 
     docker create -v /tmp --name data data nothing
 
