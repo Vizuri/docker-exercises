@@ -1,5 +1,5 @@
 # Description
-Use inspect format to output only a few particular fields in image metadata.
+How can you quickly and succinctly determine the image id and created date for an Alpine image?
 
 ## Run instructions
 
