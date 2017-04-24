@@ -3,5 +3,7 @@ What command will most quickly tell you what is contained in an Alpine Linux /et
 
 ## Run instructions
 
-docker run --rm alpine cat /etc/hosts
+A quick way to do this is to run the container and include a command to output the file that you are interested in like this.
+
+    docker run --rm alpine cat /etc/hosts
 
