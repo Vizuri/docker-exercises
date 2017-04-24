@@ -1,5 +1,5 @@
 FROM busybox
 
-ENV myhost test
+ENV myhost testhost
 
 CMD echo $myhost
