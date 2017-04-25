@@ -17,30 +17,30 @@ These are in no particular order so you can cherry pick whatever you would like 
 
 New exercises should be added off and on so check back to continue your skills improvement.
 
-  01 - docker-compose and NodeJS
-  02 - env vars
-  03 - what's wrong with this env var?
-  04 - why doesn't this NodeJS script work?
-  05 - image export
-  06 - container naming problem
-  07 - putting a file into a running container
-  08 - TBD (docker-compose delay)
-  09 - TBD (fluentd)
-  10 - dockerize the AWS ecs cli
-  11 - get a file from an image
-  12 - get metadata from an image
-  13 - TBD (container ping pong)
-  14 - inspect something
-  15 - use inspect to find failures
-  16 - extract layers from an image
-  17 - find metadata in an image
-  18 - DinD
-  19 - set the time in a container
-  20 - TBD (cluster to cluster access)
-  21 - try out scratch
-  22 - containers in pipelines
-  23 - TBD (ECR)
-  24 - make a really small container
-  25 - does a container have a default?
-  26 - what happened in the recent past?
+    01 - docker-compose and NodeJS
+    02 - env vars
+    03 - what's wrong with this env var?
+    04 - why doesn't this NodeJS script work?
+    05 - image export
+    06 - container naming problem
+    07 - putting a file into a running container
+    08 - TBD (docker-compose delay)
+    09 - TBD (fluentd)
+    10 - dockerize the AWS ecs cli
+    11 - get a file from an image
+    12 - get metadata from an image
+    13 - TBD (container ping pong)
+    14 - inspect something
+    15 - use inspect to find failures
+    16 - extract layers from an image
+    17 - find metadata in an image
+    18 - DinD
+    19 - set the time in a container
+    20 - TBD (cluster to cluster access)
+    21 - try out scratch
+    22 - containers in pipelines
+    23 - TBD (ECR)
+    24 - make a really small container
+    25 - does a container have a default?
+    26 - what happened in the recent past?
 
