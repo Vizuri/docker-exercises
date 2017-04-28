@@ -43,4 +43,5 @@ New exercises should be added off and on so check back to continue your skills i
     24 - make a really small container
     25 - does a container have a default?
     26 - what happened in the recent past?
+    29 - content trust
 
