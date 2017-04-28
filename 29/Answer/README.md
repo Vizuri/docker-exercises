@@ -6,7 +6,7 @@ How can you tell whether or not the ubuntu:16.4 image is signed for content trus
 One way is to try to pull it with content trust enabled.
 If the image is not signed the pull will fail.
 
-To enable image content trust do this at the shell:t
+To enable image content trust do this at the shell:
 
     $ export DOCKER_CONTENT_TRUST=1
 
