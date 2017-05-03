@@ -30,3 +30,6 @@ If you do an `inspect` on the container id you can get more information.
 One approach to making use of this information is to post process the output, collect more details (using `inspect`) and then send that to your log aggregation system.
 
 On chargeback accounting or just awareness of who was running what, making a practice of using names and labels in building and running images can assist in getting more information available via the `inspect` output.
+
+A complete list of the events that can be used in a filter can be found at [https://docs.docker.com/engine/reference/commandline/events/#object-types](https://docs.docker.com/engine/reference/commandline/events/#object-types)
+
