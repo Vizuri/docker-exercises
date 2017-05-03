@@ -31,5 +31,14 @@ One approach to making use of this information is to post process the output, co
 
 On chargeback accounting or just awareness of who was running what, making a practice of using names and labels in building and running images can assist in getting more information available via the `inspect` output.
 
+If you are interested in capturing specific events you can filter by type.
+In the following we are looking for any events associated with image pulls only.
+
+```
+$ docker events --filter 'type=image' --filter 'event=pull' --format '{{json .}}'
+
+{"status":"pull","id":"alpine:latest","Type":"image","Action":"pull","Actor":{"ID":"alpine:latest","Attributes":{"name":"alpine"}},"time":1493827292,"timeNano":1493827292425544865}
+```
+
 A complete list of the events that can be used in a filter can be found at [https://docs.docker.com/engine/reference/commandline/events/#object-types](https://docs.docker.com/engine/reference/commandline/events/#object-types)
 
