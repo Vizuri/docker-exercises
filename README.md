@@ -45,4 +45,5 @@ New exercises should be added off and on so check back to continue your skills i
     26 - what happened in the recent past?
     29 - content trust
     30 - fix a formatted ps problem
+    31 - allow only one instance of a container to run
 
