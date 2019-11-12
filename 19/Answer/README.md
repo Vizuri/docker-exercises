@@ -10,7 +10,7 @@ It is probaly always desirable to use the smallest image possible so Alpine Linu
 The included Dockerfile uses Alpine as a base image, updates the packaging system and then adds the tzdata package and sets the timezone during the build.
 Then at runtime it uses date to output the current time.
 
-docker build -t brussels .
+docker build -t brussels .  
 docker run brussels
 
 
